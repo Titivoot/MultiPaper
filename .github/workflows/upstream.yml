@@ -1,8 +1,9 @@
 name: Update Upstream
 
 on:
-  schedule:
-    - cron: '0 15 * * *' # Once a day at 5pm GMT+2
+  # Disable schedule
+  #schedule:
+  #  - cron: '0 15 * * *' # Once a day at 5pm GMT+2
   workflow_dispatch: # on button click
 
 jobs:
